@@ -1,8 +1,9 @@
 body {
     background: rgb(68, 64, 67);
-    color: rgb(101, 19, 119);
+    color: rgb(90, 21, 106);
+    animation: 1s glow ease-in-out infinite alternate
     padding: 10px;
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #all-contents {
   max-width: 800px;
@@ -33,7 +34,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #9c9ceb;
 }
 
 /* main container area beneath menu */
@@ -51,7 +52,16 @@ main {
 .content {
     flex: 1;
     padding: 15px;
+    animation: 1s glow ease-in-out infinite alternate;
 }
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #b981e7, 0 0 20px #fff, 0 0 30px #f5f2f4, 0 0 40px rgb(198, 118, 222), 0 0 50px #f6f3f5, 0 0 60px #f6f5f6, 0 0 70px #fbfafa;
+    }
+    to {
+      text-shadow: 0 0 20px #ae64d6, 0 0 30px #f5f2f3, 0 0 40px #f7f3f5, 0 0 50px #8d6ab0, 0 0 60px #fcfafb, 0 0 70px #fffdfe, 0 0 80px #fbf8fa;
+    }
+  }
 
 /* portfolio styles */
 #interests {
