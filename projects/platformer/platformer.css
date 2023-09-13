@@ -3,9 +3,9 @@ body {
 }
 
 canvas {
-  background-color: rgb(142, 106, 166);
+  background-color: rgb(234, 227, 239);
 }
-
+background-image urc("")
 img {
   display: none;
 }
