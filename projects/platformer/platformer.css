@@ -4,6 +4,7 @@ body {
 
 canvas {
   background-color: rgb(234, 227, 239);
+  background-image:url("https://media.istockphoto.com/id/1289725891/photo/luxury-glossy-metalic-background.jpg?s=612x612&w=0&k=20&c=CoJvDZf5KxlKwfR875cuyoFkCRkuNMDUyv4A0ICnqKI=")
 }
 img {
   display: none;
