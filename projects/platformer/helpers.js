@@ -366,18 +366,27 @@ function deathOfPlayer() {
     canvas.height / 2
   );
   ctx.fillStyle = "black";
-  ctx.font = "800% serif";
+  ctx.font = "600% serif";
   ctx.fillText(
-    "You died Retry?",
+    "mission failed",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 5,
     (canvas.width / 16) * 14
   );
-  ctx.font = "500% serif";
+  ctx.font = "400% serif";
   ctx.fillText(
-    " Hey all you gotta do is time it very hurry before someone else s get the 20 bucks"
+  " try again"
+,
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 3,
+    (canvas.width / 16) * 14
+  );
+  ctx.font = "300% serif";
+  ctx.fillText(
+  "Hey all you gotta do is time it"
+,
+    canvas.width / 4,
+    canvas.height / 12 + canvas.height / 3,
     (canvas.width / 16) * 14
   );
   if (keyPress.any) {
