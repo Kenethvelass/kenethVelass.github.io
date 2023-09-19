@@ -368,14 +368,14 @@ function deathOfPlayer() {
   ctx.fillStyle = "black";
   ctx.font = "600% serif";
   ctx.fillText(
-    "mission failed",
+    "Mission failed",
     canvas.width / 4,
-    canvas.height / 6 + canvas.height / 5,
+    canvas.height / 7 + canvas.height / 5,
     (canvas.width / 16) * 14
   );
-  ctx.font = "400% serif";
+  ctx.font = "300% serif";
   ctx.fillText(
-  " try again"
+  " To try again click any button"
 ,
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 3,
@@ -383,7 +383,7 @@ function deathOfPlayer() {
   );
   ctx.font = "300% serif";
   ctx.fillText(
-  "Hey all you gotta do is time it"
+  " Tip:you gotta  time it"
 ,
     canvas.width / 4,
     canvas.height / 12 + canvas.height / 3,

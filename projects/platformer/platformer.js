@@ -50,7 +50,7 @@ $(function () {
     createPlatform(300, 400, 30, 400);
     createPlatform(600, 400, 200, 20);
     createPlatform(800, 400, 200, 20);
-    createPlatform(200,600, 210, 20);
+    createPlatform(200,650, 210, 20);
     createPlatform(600,650, 230, 20)
     createPlatform(1280,700,60,20)
     // TODO 2
@@ -71,9 +71,10 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     createCannon 
     createCannon("bottom", 480, 600,20,100)
-    createCannon
     createCannon("right", 800, 1400,300)
     createCannon("top", 800, 2400, 30,700)
+    createCannon("top", 1100, 2400, 20,700)
+    createCanno("left", 500, 1400, 20,100)
 
 
     /////////////////////////////////////////////////
